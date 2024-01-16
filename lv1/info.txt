@@ -16,3 +16,7 @@ e-commerce
 titulos y parrafos LOREM
 --------------------------------
 root: colores y fuentes
+--------------------------------
+normalize
+--------------------------------
+rem como unidad de medida

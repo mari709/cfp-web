@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@500&display=swap');
+
 :root {
     --primary-color: #eee;
     --secondary-color: #eee;
@@ -10,9 +11,20 @@
 }
 
 html {
+    font-size: 62.5%;
     font-family: var(--primary-font);
+    width: 80%;
+    margin: 0 auto;
 }
 
-p {
+h1 {
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+p, label {
     font-family: var(--secondary-font);
+    font-size: 1.6rem;
 }
