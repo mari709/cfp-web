@@ -20,3 +20,7 @@ root: colores y fuentes
 normalize
 --------------------------------
 rem como unidad de medida
+--------------------------------
+flexbox a barra de navegacion y 
+hover a enlaces
+--------------------------------

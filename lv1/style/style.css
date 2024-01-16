@@ -24,7 +24,21 @@ h1 {
 h2 {
     font-size: 2rem;
 }
-p, label {
+p, label, a {
     font-family: var(--secondary-font);
     font-size: 1.6rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+.navbar a {
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: #000;
 }
