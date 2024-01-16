@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@500&display=swap');
+:root {
+    --primary-color: #eee;
+    --secondary-color: #eee;
+    --text-color: #eee;
+
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Open Sans', sans-serif;
+
+}
+
+html {
+    font-family: var(--primary-font);
+}
+
+p {
+    font-family: var(--secondary-font);
+}

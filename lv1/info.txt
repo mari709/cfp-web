@@ -1,0 +1,18 @@
+ESTRUCTURA HTML
+encabezado <head>
+barra de navegación <nav>
+contenido de dirección
+contenido principal <main>
+formulario <form>
+pie de página <footer>
+- agregar clases
+--------------------------------
+ICONOS TABLEICONS
+ubicación
+diseño web
+aplicaciones web
+e-commerce
+--------------------------------
+titulos y parrafos LOREM
+--------------------------------
+root: colores y fuentes
