@@ -24,3 +24,7 @@ rem como unidad de medida
 flexbox a barra de navegacion y 
 hover a enlaces
 --------------------------------
+css final para:
+-banner
+-sección de caracteristicas (iconos)
+-formulario

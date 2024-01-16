@@ -42,3 +42,18 @@ p, label, a {
 .navbar a:hover {
     color: #000;
 }
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: var(--spacing-36);
+}
+
+.form__box--grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: var(--spacing-16);
+    align-items: center;
+}
