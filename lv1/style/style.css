@@ -74,6 +74,7 @@ p, label, a {
     justify-content: space-between;
     gap: 2rem;
     flex-wrap: wrap;
+    padding-top: var(--spacing-16)
   }
 
   .section-descriptions {
@@ -111,7 +112,7 @@ p, label, a {
 .form__box--grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: var(--spacing-16);
+    gap: var(--spacing-36) var(--spacing-16);
     align-items: center;
 }
 
@@ -156,6 +157,7 @@ input[type="submit"] {
 
 textarea {
   resize: vertical;
+  height: 8rem;
 }
 
 textarea, input {
