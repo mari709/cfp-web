@@ -28,7 +28,7 @@ h1.banner__title{
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 p, label, a {
     font-family: var(--secondary-font);
@@ -62,18 +62,6 @@ p, label, a {
     align-items: center;
     z-index: 2;
     position: relative;
-}
-
-.banner__link, input[type="submit"]  {
-    display: inline-block;
-    background-color: var(--secondary-color);
-    border: none;
-    border-radius: 5rem;
-    font-weight: 500;
-    padding: 1.6rem;
-    color: white;
-    font-size: 1.6rem;
-    
 }
 
 .banner__link:hover,  input[type="submit"]:hover {
@@ -115,29 +103,69 @@ p, label, a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     gap: var(--spacing-36);
     padding-top: 10%;
 }
 
 .form__box--grid {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 2fr;
     gap: var(--spacing-16);
     align-items: center;
 }
 
   label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0.8rem;
   }
 
   input {
     width: 100%;
-    padding: 8px;
+    padding: 1.2rem;
     box-sizing: border-box;
+    border: 1px solid var(--text-color);
+  }
+
+  input:hover, input:focus {
+    border: 1px solid var(--secondary-color);
   }
 
 .copyright {
     text-align: center;
+}
+
+.banner__link, input[type="submit"]  {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 0.4rem;
+  font-weight: 500;
+  padding: 1.6rem;
+  color: white;
+  font-size: 1.6rem;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+
+  
+}
+
+input[type="submit"] {
+  grid-column: span 2;
+}
+
+textarea {
+  resize: vertical;
+}
+
+textarea, input {
+  font-size: 1.6rem;
+}
+
+
+footer {
+  margin-top: 12rem;
+  padding: 0.4rem 0;
+  background-color: var(--text-color);
+  color: white;
 }
